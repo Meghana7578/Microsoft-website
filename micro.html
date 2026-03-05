@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Microsoft Clone</title>
+<link rel="stylesheet" href="micro.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+<img src="images\microsoft logo.jpg" width="110">
+</div>
+
+<nav class="menu">
+<a href="#">Microsoft 365</a>
+<a href="#">Teams</a>
+<a href="#">Copilot</a>
+<a href="#">Windows</a>
+<a href="#">Surface</a>
+<a href="#">Xbox</a>
+<a href="#">Support</a>
+</nav>
+
+<div class="right-menu">
+
+<a href="#">All Microsoft ▾</a>
+<a href="#">Search 🔍</a>
+<a href="#">Cart 🛒</a>
+<a href="#">Sign in 👤</a>
+
+</div>
+
+</header>
+
+<!-- Image Slider -->
+
+<div class="slider">
+
+    <img id="slideImage" src="images/img1.png">
+
+    <div class="text-box">
+
+        <h1 id="title">Microsoft 365</h1>
+
+        <p id="desc">
+        Introducing Microsoft 365 Premium with our highest usage limits.
+        </p>
+
+        <button id="btn">Discover Microsoft 365 Premium</button>
+
+        <p class="link">See other Microsoft 365 options ></p>
+
+    </div>
+
+</div>
+
+<div class="controls">
+
+<button onclick="pauseSlide()">⏸</button>
+
+<button onclick="prevSlide()">❮</button>
+
+<span class="dot" onclick="currentSlide(0)"></span>
+<span class="dot" onclick="currentSlide(1)"></span>
+
+<button onclick="nextSlide()">❯</button>
+
+</div>
+<script src="micro.js"></script>
+
+</body>
+</html>
